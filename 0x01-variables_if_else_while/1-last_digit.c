@@ -1,5 +1,5 @@
-#include <stdlib.h>  // For srand, rand, RAND_MAX
-#include <time.h>    // For time
+#include <stdlib.h>  
+#include <time.h>    
 #include <stdio.h>
 
 /**
