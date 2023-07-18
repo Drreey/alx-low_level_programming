@@ -1,19 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - Prints all single-digit numbers of base 10.
+ * main - Prints all single-digit numbers of base 10 without newline characters.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    int i;
+	int i;
 
-    for (i = 0; i < 10; i++)
-    {
-        printf("%d\n", i);
-    }
+	for (i = 0; i < 10; i++)
+	{
+		putchar(i + '0');
+	}
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
 
