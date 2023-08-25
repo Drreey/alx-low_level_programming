@@ -3,8 +3,8 @@
 
 /*
  * print_list - prints the elements of the list_t(linked list)
- * *h - pointer to the lists to be printed
- * return: size_t(number of nodesor elements printed)
+ * @h - pointer to the lists to be printed
+ * return: size_t
  *
  */
 size_t print_list(const list_t *h);
