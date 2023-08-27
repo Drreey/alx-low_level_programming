@@ -5,7 +5,6 @@ void before(void) __attribute__((constructor));
 /*
  * before- function to execute before main function
  *
- * return - void
  */
 
 void before(void)
