@@ -3,7 +3,7 @@
 /**
  * pop_listint - deleted the head of the node
  * @head : pointer to a pointer to the head of the list
- * return: the data of the head node or 0 if empty
+ * Return: the data of the head node or 0 if empty
  *
  */
 
