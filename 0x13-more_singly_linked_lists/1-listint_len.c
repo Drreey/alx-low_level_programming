@@ -5,7 +5,7 @@
  * listint_len- function to print length or number of elements
  * h - pointer pointing to the nodes
  *
- * Return ; number of element in listint
+ * Return: number of element in listint
  */
 
 size_t listint_len(const listint_t *h);
@@ -14,7 +14,7 @@ size_t listint_len(const listint_t *h);
 
 	while (h != NULL)
 	{
-		length++
+		length++;
 		h = h->next;
 	}
 	return (lenght);
