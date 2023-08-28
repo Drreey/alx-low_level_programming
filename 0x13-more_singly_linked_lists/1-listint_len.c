@@ -8,7 +8,7 @@
  * Return: number of element in listint
  */
 
-size_t listint_len(const listint_t *h);
+size_t listint_len(const listint_t *h)
 {
 	size_t lenght = 0;
 
