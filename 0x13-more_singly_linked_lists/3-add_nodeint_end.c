@@ -5,7 +5,7 @@
  * @head: pointer to a pointerto the head of the listint_t
  * @n : value to be added to the new node
  *
- * return: address of the new element, or NULLif it failed
+ * Return: address of the new element, or NULLif it failed
  *
  */
 
