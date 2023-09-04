@@ -3,6 +3,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include "main.h"
+#include <string.h>
 
 /**
  * create_file - Create a file with  permissions and write  content.
