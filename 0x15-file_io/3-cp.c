@@ -5,7 +5,7 @@
 
 void print_error(int error_code, const char *message, const char *file_name)
 {
-	dprintf(STDERR_FILENO, message, file_name);
+	fprintf(stderr, "%s", message);
 	exit(error_code);
 }
 
